@@ -9,7 +9,7 @@ ROOT_PATH = 'root/'
 ACCES_USERS = os.environ.get('tl_admin_user','Elpatron220').split(';Elpatron220')
 #ACCES_USERS = ('tl_admin_user','Elpatron220')
 #ACCES_USERS = os.environ.get(Elpatron220)
-PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','http://KFGGJJYGJKLHFKYEDIGDYJJEKEFKREEGLFDKLH'))
+PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','http://KIDDKDYJJKJJGDYDJKGJGJYGIHIERKDGLGDELI'))
 
 if PROXY:
   print(f'Proxy {PROXY.as_dict_proxy()}')
